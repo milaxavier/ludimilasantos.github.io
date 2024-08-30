@@ -1,0 +1,187 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'exo', sans-serif;
+}
+
+body{
+    background-color:#fffbfb;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+   display: flex;
+}
+
+h2.titulo{
+   color: black;
+   font-size: 38px;
+   text-align: center;
+
+}
+
+h2.titulo span{
+   color: #faa8b5;
+}
+
+p.txt-paragrafo{
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+   padding: 38px 4%;
+   text-align: justify;
+
+}
+
+/* EsSTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+ header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ header a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2;
+ }
+ 
+ header a:hover{
+    color: rgb(65, 58, 58);
+    transform: scale(1.05);
+ }
+
+ header nav ul{
+    list-style-type: none;
+ }
+
+ header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+ }
+
+ header .lud-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffc0cb;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+ }
+
+ header .lud-contato button:hover{
+    box-shadow: 0px 0px 8px #ffcdf7;
+ }
+ /*ESTILO DO TOPO DO SITE*/
+ section.topo-do-site{
+   padding: 40px 4%;
+ }
+
+ section.topo-do-site .flex{
+   align-items: center;
+   justify-content: center;
+   gap: 88px;
+ }
+
+ .topo-do-site h1{
+   color: rgb(56, 49, 49);
+   font-size: 40px;
+ }
+
+ .topo-do-site h1 span{
+   color: #fcb1be;
+ }
+
+ .topo-do-site .eq-topo-do-site p{
+   color: black;
+   margin: 40px 0;
+
+ }
+
+ .minha-img{
+   width:400px;
+ }
+
+ .minha-logo{
+   max-width: 90%;
+   height: auto;
+ }
+
+ /*ESTILO DA FORMAÇÃO*/
+ section.formacao{
+   padding: 40px 4%;
+   margin-top: 40px;
+ }
+
+ .lista-formacao{
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+   padding: 38px 4%;
+   text-align: justify;
+ }
+
+ /*ESTILO DO PORTIFOLIO*/
+ section.portifolio{
+   padding: 40px 4%;
+   margin-top: 40px;
+ }
+
+  /*ESTILIO DE FORMULARIO DE CONTATO*/
+  section.formulario{
+   padding: 80px 4%;
+  }
+
+  form{
+   max-width: 500px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 40px;
+  }
+
+  form input,form textarea{
+   width: 100%; 
+   background-color:#ffffff;
+   border: 0;
+   outline: 0;
+   padding: 20px 15px;
+   border-radius: 15px;
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+  }
+
+  form textarea{
+   resize: none;
+   max-height: 200px;
+  }
+
+  form .txt-enviar{
+   margin-top: 20px;
+   text-align: center;
+  }
+
+  form .txt-enviar input{
+   width: 120px;
+   background-color: #fcb1be;
+   color: black;
+   font-weight: 700;
+   cursor: pointer; 
+   padding: 10px;
+   border-radius: 5px;
+  }
+  
